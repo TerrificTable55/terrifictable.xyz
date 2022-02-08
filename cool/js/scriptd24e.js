@@ -52,7 +52,7 @@ const commands = {
 	links: 
 	{
 		cmd: 'links',
-		res: 'Links:<br># <span class="red"><a href="https://discord.gg/nighty" target="_blank"><u>Discord</u></a></span> - My Discord Account.<br># <span class="red"><a href="https://github.com/terrifictable" target="_blank"><u>Github</u></a></span> - Where i post my code<br># <span class="red"><a href="https://steamcommunity.com/id/terrifictable" target="_blank"><u>Steam</u></a></span> - You can find me there <span class="green">Online</span> most of the time.<br># <span class="red"><u></u></a></span>'
+		res: 'Links:<br># <span class="red"><a href="https://github.com/terrifictable" target="_blank"><u>Github</u></a></span> - Where i post my code<br># <span class="red"><u></u></a></span>'
 	},
 	visitors: 
 	{
