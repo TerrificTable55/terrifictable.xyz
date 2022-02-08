@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Main | Terrific Development</title>
+<html lang="en">
+<head>
+    <title>   </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   </title>
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <main>
-      <div class="title">
-        <h1>This is a Test<.<span class="fancy">html</span>></h1>
-        <span class="handle">@terrifictable</span>
 
-      </div>
+    <script type="text/javascript">
+    function clock() {
+        var date = new Date()
+    
+        var month = date.getMonth()
+    
+        var hour = date.getHours()
+        var minute = date.getMinutes()
+        var second = date.getSeconds()
+        if (hour > 12) {hour = hour - 12}
+        if (minute < 10) {minute = "0" + minute}
+        if (second < 10) {second = "0" + second}
+        document.title = hour + ":" + minute + ":" + second
+        setTimeout(clock, 1000)
+    }
+    </script>
+</head>
 
-    </main>
-  </body>
+<body onLoad="clock()" onclick="music()" oncontextmenu="return false;">
+    <div id="image">
+        <img src='https://terrifictable.xyz/assets/bg.gif'>
+    </div>
+
+    <style>
+        * {
+        cursor: url('cursor.png'), auto;
+        }
+    </style>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="music.js"></script>
+</body>
 </html>
